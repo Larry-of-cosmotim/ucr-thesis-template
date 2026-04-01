@@ -16,11 +16,21 @@ An **unofficial** LaTeX template for University of California, Riverside (UCR) P
 - Landscape page support with portrait-style page numbers
 - Sample chapter structure
 
+## Open in Overleaf
+
+[![Open in Overleaf](https://img.shields.io/badge/Open%20in-Overleaf-47A141?logo=overleaf&logoColor=white)](https://www.overleaf.com/docs?snip_uri=https://github.com/Larry-of-cosmotim/ucr-thesis-template/archive/refs/heads/main.zip)
+
+Click the badge above to import this template directly into your Overleaf account — no download needed.
+
 ## Quick Start
 
+### Option 1: Overleaf (recommended)
+Click the "Open in Overleaf" badge above.
+
+### Option 2: Local
 1. Clone this repository:
    ```bash
-   git clone https://github.com/cosmotim/ucr-thesis-template.git
+   git clone https://github.com/Larry-of-cosmotim/ucr-thesis-template.git
    cd ucr-thesis-template
    ```
 
