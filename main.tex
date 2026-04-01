@@ -1,0 +1,99 @@
+\documentclass{ucr-thesis}
+
+% ============================================================
+% Your Dissertation/Thesis Metadata — Edit these!
+% ============================================================
+\dissertationtitle{Your Dissertation Title Goes Here:\\
+A Study of Something Important}
+
+\author{Your Name Here}
+\degreeprogram{Your Program}          % e.g., Physics, Electrical Engineering
+\degreename{Doctor of Philosophy}     % or Master of Science, Master of Arts, etc.
+\conferraldate{June 2026}             % December, March, June, or September + year
+
+\committeechairperson{Dr. Your Advisor}
+\committeemembertwo{Dr. Committee Member 2}
+\committeememberthree{Dr. Committee Member 3}
+% \committeememberfour{Dr. Committee Member 4}   % Uncomment if needed
+% \committeememberfive{Dr. Committee Member 5}   % Uncomment if needed
+
+% ============================================================
+% Additional Packages (add your own here)
+% ============================================================
+\usepackage{natbib}           % Bibliography management
+\usepackage{appendix}         % Appendix formatting
+\usepackage{subcaption}       % Subfigures
+\usepackage{float}            % Figure placement [H]
+\usepackage{siunitx}          % SI units (optional)
+
+% ============================================================
+\begin{document}
+
+% ============================================================
+% PRELIMINARY PAGES
+% ============================================================
+\beginpreliminarypages
+
+% Title Page (counted as i, not printed)
+\maketitlepage
+
+% Copyright Page (counted as ii, not printed)
+\makecopyrightpage
+
+% Signature Approval Page (counted as iii, not printed — blank for PDF)
+\makeapprovalpage
+
+% Start printing Roman numerals at iv
+\startprintedprelim
+
+% Acknowledgments
+\input{frontmatter/acknowledgments}
+
+% Abstract
+\input{frontmatter/abstract}
+
+% Table of Contents
+\begin{singlespace}
+\tableofcontents
+\end{singlespace}
+\newpage
+
+% List of Figures (required if >1 figure)
+\begin{singlespace}
+\listoffigures
+\end{singlespace}
+\newpage
+
+% List of Tables (required if >1 table)
+\begin{singlespace}
+\listoftables
+\end{singlespace}
+\newpage
+
+% ============================================================
+% BODY TEXT (Arabic numerals starting at 1)
+% ============================================================
+\beginbodypages
+
+\input{chapters/chapter1}
+% \input{chapters/chapter2}
+% \input{chapters/chapter3}
+% Add more chapters as needed
+
+% ============================================================
+% BIBLIOGRAPHY
+% ============================================================
+\newpage
+\begin{singlespace}
+\bibliographystyle{unsrt}
+\bibliography{references}
+\end{singlespace}
+
+% ============================================================
+% APPENDICES (optional)
+% ============================================================
+\begin{appendices}
+\input{appendices/appendix-a}
+\end{appendices}
+
+\end{document}
